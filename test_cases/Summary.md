@@ -9,8 +9,8 @@
 8. `Cat->age` is inlined instead of `Animal->age` when present.
 9. *CHA* allows inlining a method from the closest ancestor.
 10. Multiple hierarchies work correctly at the same time.
-11. *RTA* uses information from initializations to correctly inline dynamically-bounded method.
+11. *RTA* uses information from initializations to correctly inline dynamically-bounded method (`Cat->age`).
 12. Multiple initializations can prevent *RTA* from correct inlining.
-13. *RTA* can still work with multiple initializations - can happen if the latest ancestor with the required method is common for all initialized classes.
-14. Another example following the above scenario.
+13. *RTA* can still work with multiple initializations - can happen if the latest ancestor with the required method is common for all initialized classes (`Mammal->age` is used for inlining here).
+14. Another example following the above scenario (`Mammal->age` is inlined).
 15. *RTA* fails to inline `m.age()` here because `Mammal` uses `AnimateObject->age` and `Cat` uses `Cat->age`.
