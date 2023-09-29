@@ -14,3 +14,8 @@
 13. *RTA* can still work with multiple initializations - can happen if the latest ancestor with the required method is common for all initialized classes (`Mammal->age` is used for inlining here).
 14. Another example following the above scenario (`Mammal->age` is inlined).
 15. *RTA* fails to inline `m.age()` here because `Mammal` uses `AnimateObject->age` and `Cat` uses `Cat->age`.
+
+### Further testcases
+16. Inlining a method twice inside the same method should work (concerned with disambiguating the variable renamings).
+17. Basic check for `if-else` and `while-else` also including array initialization and assignments.
+18. `this` keyword is handled properly.
