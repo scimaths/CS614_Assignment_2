@@ -2,7 +2,7 @@
  * Inline mutliple methods inside the same method - "age" and "heightInFt"
  */
 
-class Test_3 {
+class test_03 {
     public static void main(String[] test3args) {
         Animal s;
 

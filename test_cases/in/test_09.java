@@ -2,7 +2,7 @@
  * Function correctly inherited from closest ancestor (using CHA)
  */
 
-class Test_9 {
+class test_09 {
     public static void main(String[] args) {
         Animal s;
 

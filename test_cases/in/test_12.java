@@ -2,7 +2,7 @@
  * Multiple initializations under RTA may lead to no inlining
  */
 
-class Test_12 {
+class test_12 {
     public static void main(String[] args) {
         int number;
         Animal a;

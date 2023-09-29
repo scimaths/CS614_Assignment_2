@@ -2,7 +2,7 @@
  * Inlining of dynamically-bound function using RTA
  */
 
-class Test_11 {
+class test_11 {
     public static void main(String[] args) {
         int number;
 

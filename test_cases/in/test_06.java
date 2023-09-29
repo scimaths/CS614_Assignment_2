@@ -2,7 +2,7 @@
  * "System.out.println" is inlined correctly.
  */
 
-class Test_6 {
+class test_06 {
     public static void main(String[] agrs) {
         Animal s;
 

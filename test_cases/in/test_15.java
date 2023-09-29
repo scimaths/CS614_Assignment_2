@@ -2,7 +2,7 @@
  * RTA stops working with multiple initializations here.
  */
 
-class Test_15 {
+class test_15 {
     public static void main(String[] args) {
         int number;
         Object a;

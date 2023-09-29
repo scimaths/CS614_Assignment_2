@@ -4,7 +4,7 @@
  * ancestor Mammal with the implementation of age().
  */
 
-class Test_13 {
+class test_13 {
     public static void main(String[] args) {
         int number;
         Object a;

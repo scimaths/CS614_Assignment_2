@@ -2,7 +2,7 @@
  * Check inlining with single and multiple arguments (with same & different types)
  */
 
-class Test_5 {
+class test_05 {
     public static void main(String[] args) {
         Animal s;
         s = new Animal();

@@ -2,7 +2,7 @@
  * Function correctly inherited from parent (using CHA)
  */
 
-class Test_7 {
+class test_07 {
     public static void main(String[] args) {
         Animal s;
 

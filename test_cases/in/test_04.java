@@ -2,7 +2,7 @@
  * Do not relay inlining - inline to a maximum depth of 1 function
  */
 
-class Test_4 {
+class test_04 {
     public static void main(String[] args) {
         Animal s;
 

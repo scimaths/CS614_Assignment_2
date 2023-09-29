@@ -3,7 +3,7 @@
  * Stadium-CricketStadium & Animal-Cat
  */
 
-class Test_10 {
+class test_10 {
     public static void main(String[] this_args) {
         int age;
         age = 10;

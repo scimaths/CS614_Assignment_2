@@ -3,7 +3,7 @@
  * in the same hierarchy.
  */
 
-class Test_14 {
+class test_14 {
     public static void main(String[] args) {
         int number;
         Object a;

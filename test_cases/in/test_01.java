@@ -2,7 +2,7 @@
  * Not inlining "age" inside static function "main"
  */
 
-class Test_1 {
+class test_01 {
     public static void main(String[] args) {
         Animal s;
         int ret;
