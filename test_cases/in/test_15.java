@@ -41,7 +41,7 @@ class Mammal extends Animal {}
 class Cat extends Mammal {
     public int age() {
         int age;
-        age = 10;
+        age = 100;
         return age;
     }
 }
