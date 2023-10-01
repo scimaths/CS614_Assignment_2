@@ -4,21 +4,23 @@
 
 class test_04 {
     public static void main(String[] args) {
-        Animal s;
+        Test_Father_Age_Inlining tester;
+        int fatherAge;
 
-        s = new Animal();
-        System.out.println(s);
+        tester = new Test_Father_Age_Inlining();
+        fatherAge = tester.check();
+        System.out.println(fatherAge);
     }
 }
 
 class Test_Father_Age_Inlining {
     public int check() {
         Animal s;
-        int father_age;
+        int fatherAge;
 
         s = new Animal();
-        father_age = s.fatherAgeDelta();
-        return father_age;
+        fatherAge = s.fatherAgeDelta();
+        return fatherAge;
     }
 }
 

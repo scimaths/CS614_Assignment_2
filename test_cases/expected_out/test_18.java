@@ -1,8 +1,10 @@
 class test_18 {
     public static void main(String[] args) {
-        int number;
-        number = 10;
-        System.out.println(number);
+        int ret;
+        Test_This_Usage tester;
+        tester = new Test_This_Usage();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 
@@ -11,10 +13,10 @@ class Test_This_Usage {
         Animal a;
         Animal b;
         int age;
-        Animal t3;
-        int t2;
         Animal t1;
         Animal t0;
+        Animal t3;
+        int t2;
         a = new Animal();
         t1 = a;
         t0 = t1;

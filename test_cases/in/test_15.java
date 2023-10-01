@@ -4,12 +4,14 @@
 
 class test_15 {
     public static void main(String[] args) {
-        int number;
+        int ret;
         Object a;
+        InheritanceTesting tester;
 
         a = new Mammal();
-        number = 10;
-        System.out.println(number);
+        tester = new InheritanceTesting();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

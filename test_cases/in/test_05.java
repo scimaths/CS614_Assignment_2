@@ -4,9 +4,12 @@
 
 class test_05 {
     public static void main(String[] args) {
-        Animal s;
-        s = new Animal();
-        System.out.println(s);
+        Test_Multiple_Arguments_Inlining tester;
+        int ret;
+
+        tester = new Test_Multiple_Arguments_Inlining();
+        ret = tester.checkFatherAge();
+        System.out.println(ret);
     }
 }
 

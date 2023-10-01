@@ -5,12 +5,16 @@
 
 class test_10 {
     public static void main(String[] this_args) {
-        int age;
-        age = 10;
+        InheritanceTesting tester;
+        int ret;
+
+        tester = new InheritanceTesting();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 
-class Inheritance_Testing {
+class InheritanceTesting {
     public int check() {
         int age;
         CricketStadium stadium;
@@ -19,6 +23,7 @@ class Inheritance_Testing {
         cat = new Cat();
         stadium = new CricketStadium();
         age = stadium.age();
+        System.out.println(age);
         age = cat.age();
         return age;
     }

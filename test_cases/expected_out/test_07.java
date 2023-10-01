@@ -1,12 +1,14 @@
 class test_07 {
     public static void main(String[] args) {
-        Animal s;
-        s = new Animal();
-        System.out.println(s);
+        InheritanceTesting tester;
+        int ret;
+        tester = new InheritanceTesting();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 
-class Inheritance_Testing {
+class InheritanceTesting {
     public int check() {
         Cat c;
         int age;

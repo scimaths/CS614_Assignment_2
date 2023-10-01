@@ -1,8 +1,11 @@
 class test_16 {
     public static void main(String[] args) {
-        int number;
-        number = 10;
-        System.out.println(number);
+        int ret;
+        Test_Single_Method_Multiple_Calls tester;
+
+        tester = new Test_Single_Method_Multiple_Calls();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

@@ -1,8 +1,10 @@
 class test_11 {
     public static void main(String[] args) {
-        int number;
-        number = 10;
-        System.out.println(number);
+        InheritanceTesting tester;
+        int ret;
+        tester = new InheritanceTesting();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

@@ -1,7 +1,9 @@
 class test_06 {
     public static void main(String[] agrs) {
         Animal s;
+        int ret;
         s = new Animal();
+        ret = s.checkPrinting();
         System.out.println(s);
     }
 }

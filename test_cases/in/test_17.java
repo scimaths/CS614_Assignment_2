@@ -1,8 +1,11 @@
 class test_17 {
     public static void main(String[] args) {
-        int number;
-        number = 10;
-        System.out.println(number);
+        int ret;
+        Test_Conditional_Loop_And_Array tester;
+
+        tester = new Test_Conditional_Loop_And_Array();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

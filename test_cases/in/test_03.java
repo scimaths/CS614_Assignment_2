@@ -4,10 +4,12 @@
 
 class test_03 {
     public static void main(String[] test3args) {
-        Animal s;
+        int heightPlusAge;
+        Test_Age_And_Height_Inlining tester;
 
-        s = new Animal();
-        System.out.println(s);
+        tester = new Test_Age_And_Height_Inlining();
+        heightPlusAge = tester.check();
+        System.out.println(heightPlusAge);
     }
 }
 

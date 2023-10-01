@@ -4,11 +4,11 @@
 
 class test_02 {
     public static void main(String[] no_arg) {
-        Animal s;
         int ret;
+        Test_Age_Inlining tester;
 
-        s = new Animal();
-        ret = s.age();
+        tester = new Test_Age_Inlining();
+        ret = tester.checkInlining();
         System.out.println(ret);
     }
 }

@@ -6,11 +6,14 @@
 
 class test_13 {
     public static void main(String[] args) {
-        int number;
+        int ret;
         Object a;
-        number = 10;
+        InheritanceTesting tester;
+
         a = new Dog();
-        System.out.println(a);
+        tester = new InheritanceTesting();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

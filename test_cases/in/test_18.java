@@ -1,8 +1,11 @@
 class test_18 {
     public static void main(String[] args) {
-        int number;
-        number = 10;
-        System.out.println(number);
+        int ret;
+        Test_This_Usage tester;
+
+        tester = new Test_This_Usage();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

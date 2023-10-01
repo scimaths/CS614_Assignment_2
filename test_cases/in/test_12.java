@@ -4,12 +4,14 @@
 
 class test_12 {
     public static void main(String[] args) {
-        int number;
         Animal a;
+        int ret;
+        InheritanceTesting tester;
     
         a = new Cat();
-        number = 10;
-        System.out.println(number);
+        tester = new InheritanceTesting();
+        ret = tester.check();
+        System.out.println(ret);
     }
 }
 

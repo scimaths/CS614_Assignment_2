@@ -1,8 +1,10 @@
 class test_03 {
     public static void main(String[] test3args) {
-        Animal s;
-        s = new Animal();
-        System.out.println(s);
+        int heightPlusAge;
+        Test_Age_And_Height_Inlining tester;
+        tester = new Test_Age_And_Height_Inlining();
+        heightPlusAge = tester.check();
+        System.out.println(heightPlusAge);
     }
 }
 
@@ -15,18 +17,18 @@ class Test_Age_And_Height_Inlining {
         Animal t1;
         int t0;
         Animal t5;
-        int t3;
         int t4;
         int t2;
+        int t3;
         s = new Animal();
         t1 = s;
         t0 = 10;
         age = t0;
         t5 = s;
-        t2 = 3;
-        t4 = 160;
-        t3 = t4 * t2;
-        height = t3;
+        t3 = 3;
+        t2 = 160;
+        t4 = t2 * t3;
+        height = t4;
         heightPlusAge = height + age;
         return heightPlusAge;
     }

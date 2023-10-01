@@ -1,28 +1,30 @@
 class test_04 {
     public static void main(String[] args) {
-        Animal s;
-        s = new Animal();
-        System.out.println(s);
+        Test_Father_Age_Inlining tester;
+        int fatherAge;
+        tester = new Test_Father_Age_Inlining();
+        fatherAge = tester.check();
+        System.out.println(fatherAge);
     }
 }
 
 class Test_Father_Age_Inlining {
     public int check() {
         Animal s;
-        int father_age;
+        int fatherAge;
         Animal t4;
-        Animal t2;
-        int t0;
+        Animal t0;
         int t1;
         int t3;
+        int t2;
         s = new Animal();
         t4 = s;
-        t2 = new Animal();
-        t0 = t2.age();
-        t1 = t2.fatherAge();
-        t3 = t1 - t0;
-        father_age = t3;
-        return father_age;
+        t0 = new Animal();
+        t1 = t0.age();
+        t3 = t0.fatherAge();
+        t2 = t3 - t1;
+        fatherAge = t2;
+        return fatherAge;
     }
 }
 
@@ -44,10 +46,10 @@ class Animal {
         int animalAge;
         int fatherAge;
         int ageDiff;
-        Animal t3;
-        int t2;
         Animal t1;
         int t0;
+        Animal t3;
+        int t2;
         s = new Animal();
         t1 = s;
         t0 = 10;
